@@ -17,3 +17,16 @@ The following functions can help find useful information about elements and the 
 ###### @param chosenElement {string} - the name of the element chosen to find all elements that have the same phase at room temperature as it. Must be a valid name of an existing element on the periodic table and spelled correctly, without spaces
 ###### @return matchingPhaseElements {list} - a list of all of the elements that have the same phase at room temperature as the chosen element name in the parameter
 **`function getMatchingPhaseElements(chosenElement)`**
+#
+
+##### function returns a string saying the common places that a chosen element name, the parameter, is found in
+###### @param elementInQuestion {string} - the chosen element name that will have its common places found in be returned. Must be a valid name of an existing element on the periodic table and spelled correctly,without spaces
+###### @return uses {string} - the string saying the common places in which the chosen element is found in.   
+**`function getCommonPlacesFound(elementInQuestion)`**
+#
+
+##### function returns a list of elements that melt at a temperature greater than or equal to a chosen temperature, the parameter 
+###### @param chosenTemperature {number} - any real number representing a temperature in fahrenheit
+###### @return elementsFittingTempCriteria {list} - the list of all element names that melt at a temperature greater than or equal to the chosen temperature in the parameter
+**`function getElementsUsingMeltingPoint(chosenTemperature)`**
+#
