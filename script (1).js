@@ -8,7 +8,7 @@ const atomGroups = getColumn(url, 11);
 const commonPlacesFound = getColumn(url, 12);
 const meltingPoints = getColumn(url, 6);
 
-//function returns all elements that are in a specific chosen elemental group, the parameter
+//function returns a list of all elements that are in a specific chosen elemental group, the parameter
 //@param classificationGroup {string} - the name of an elemental group that you would like to get the elements of. Must be one of the following (capitalization not important): "Halogens", "Alkali metals", "Alkali earth metals", "No definitive group", "Noble gas", "Metalloids", "Non-metal", "Transition metals", "Poor metals", "Rare earth metals", "Actinide metals", "Superheavy elements"  
 //@return matchingGroupElements {list} - the list containing the names of all elements that are within the specified elemental group  
 function getElementsInGroup(classificationGroup) {
