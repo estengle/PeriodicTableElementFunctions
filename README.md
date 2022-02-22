@@ -20,7 +20,7 @@ The following functions can help find useful information about elements and the 
 #
 
 ##### function returns a string saying the common places that a chosen element name, the parameter, is found in
-###### @param elementInQuestion {string} - the chosen element name that will have its common places found in be returned. Must be a valid name of an existing element on the periodic table and spelled correctly,without spaces
+###### @param elementInQuestion {string} - the chosen element name that will have its common places found in be returned. Must be a valid name of an existing element on the periodic table and spelled correctly, without spaces
 ###### @return uses {string} - the string saying the common places in which the chosen element is found in.   
 **`function getCommonPlacesFound(elementInQuestion)`**
 #
